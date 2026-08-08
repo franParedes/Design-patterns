@@ -1,0 +1,22 @@
+﻿@model IEnumerable<mvc_pattern_example.Models.Mascota>
+<h2>Listado de Pacientes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Especie</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var mascota in Model)
+        {
+            <tr>
+                <td>@mascota.Id</td>
+                <td>@mascota.Name</td>
+                <td>@mascota.Especies</td>
+            </tr>
+        }
+    </tbody>
+</table>
