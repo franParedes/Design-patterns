@@ -1,4 +1,4 @@
-﻿namespace Delegation_pattern
+﻿namespace Delegation_pattern.Interfaces
 {
     public interface IDescription
     {

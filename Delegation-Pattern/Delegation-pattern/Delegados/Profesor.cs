@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Delegation_pattern.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Delegation_pattern
+namespace Delegation_pattern.Delegados
 {
     public class Profesor : IDescription
     {

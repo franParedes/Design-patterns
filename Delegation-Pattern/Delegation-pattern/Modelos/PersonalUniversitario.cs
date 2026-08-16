@@ -1,6 +1,7 @@
-﻿using System.Text;
+﻿using Delegation_pattern.Interfaces;
+using System.Text;
 
-namespace Delegation_pattern
+namespace Delegation_pattern.Modelos
 {
     public class PersonalUniversitario
     {

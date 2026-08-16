@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Delegation_pattern;
+using Delegation_pattern.Delegados;
+using Delegation_pattern.Modelos;
 
 Console.WriteLine("============ PATRON DELEGATION ============");
 

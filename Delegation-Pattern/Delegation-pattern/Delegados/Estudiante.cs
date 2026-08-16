@@ -1,4 +1,6 @@
-﻿namespace Delegation_pattern
+﻿using Delegation_pattern.Interfaces;
+
+namespace Delegation_pattern.Delegados
 {
     public class Estudiante : IDescription
     {
